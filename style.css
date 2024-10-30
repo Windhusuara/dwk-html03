@@ -1,0 +1,60 @@
+/* Add styles here */
+body{
+    background-image: url('images/POHON.jpg');
+    margin:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    padding:0px;
+    background-color: rgb(255, 255, 255);
+    opacity: 50%;
+}
+.navbarmenu{
+    text-align: right;
+    padding: 5px;
+}
+.navbarmenulist{
+    list-style: none;
+}
+.navbarmenulist > li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.navbarmenulist > Li >a{
+    text-decoration: none;
+    color:black;
+}
+.navbarmenulist > Li > a:hover{
+    font-weight: bold;
+    color:white;
+    background-color: black;
+    padding: 15px;
+}
+.navbarjudul{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 2em;
+    position:relative ;
+    top :30px;
+    left:15px;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+#txhello{
+    font-size: 50px;
+    position: relative;
+    top:200px;
+    left: 25%;
+}
+#btn1{
+    position:relative ;
+    font-size: 35px;
+    padding: 10px 50px;
+    border-radius: 18px;
+    top :200px;
+    left:45%;
+}
+#btn1:hover{
+    background-color: black;
+    color:white;
+}
